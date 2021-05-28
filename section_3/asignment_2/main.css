@@ -1,0 +1,14 @@
+.nice-box{
+    padding: 5px 10px 5px 15px;
+    border: 3px green solid;
+    display: inline-block;
+}
+body > div:first-of-type{
+    height: 300px;
+    width: 50%;
+    visibility: hidden;
+}
+body > div:last-of-type:hover{
+  color: red;
+  font-weight: bolder;
+}
